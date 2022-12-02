@@ -32,13 +32,13 @@
 // }
 
 
-// #include <stdio.h>
-// #include <string.h>
-// #include <fcntl.h>
-// #include <sys/stat.h>
-// #include <sys/types.h>
-// #include <unistd.h>
-#include <bits/stdc++.h>
+#include <stdio.h>
+#include <string.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <unistd.h>
+// #include <bits/stdc++.h>
 
 int main()
 {
