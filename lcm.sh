@@ -1,0 +1,14 @@
+echo -n "Enter 2 numbers: "
+read m n
+temp=`expr $m \* $n`
+while [ $m != $n ]
+do
+	if [ $m -gt $n ]
+	then
+		m=`expr $m - $n`
+	else
+		n=`expr $n - $m`
+	fi
+done
+lcm=`expr $temp / $n`
+echo LCM=$lcm
