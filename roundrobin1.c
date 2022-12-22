@@ -38,8 +38,6 @@ wt = wt+sum-at[i]-bt[i];
 tat = tat+sum-at[i];
 printf("\nProcess No[%d] \t\t %d\t\t\t %d\t\t\t %d", i+1, bt[i], sum-at[i], sum-at[i]-bt[i]);
 count =0;
-Name: P. Kiran Deep CSE – 3 Roll No: 1601-20-733-313
-35
 }
 if(i==NOP-1)
 i=0;
